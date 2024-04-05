@@ -9,7 +9,7 @@ function Dash() {
   const navigate = useNavigate();
     const getUser = async()=>{
       try {
-          const response = await axios.get("http://localhost:8080/login/sucess", {withCredentials : true});
+          const response = await axios.get("https://deeplearningwebsiteserver.onrender.com/login/sucess", {withCredentials : true});
           console.log("response  : ",  response)
       } catch (error) {
       navigate("*")  
@@ -32,7 +32,7 @@ function Dash() {
       const formData = new FormData();
       formData.append('video', selectedFile);
 
-      await axios.post('http://localhost:8080/uploadVideo', formData, {
+      await axios.post('https://deeplearningwebsiteserver.onrender.com/uploadVideo', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },

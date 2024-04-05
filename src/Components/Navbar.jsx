@@ -6,7 +6,7 @@ function Navbar() {
   const [userdata, setUserdata] = useState({});
     const getUser = async()=>{
         try {
-            const response = await axios.get("http://localhost:8080/login/sucess", {withCredentials : true});
+            const response = await axios.get("https://deeplearningwebsiteserver.onrender.com/login/sucess", {withCredentials : true});
             console.log("response  : ",  response)
             setUserdata(response.data.user)
         } catch (error) {
@@ -18,7 +18,7 @@ function Navbar() {
     },[])
     //logout function
     const logout = () => {
-        window.open("http://localhost:8080/logout", "_self")
+        window.open("https://deeplearningwebsiteserver.onrender.com/logout", "_self")
     }
   return (
     <div className='nav-body' >

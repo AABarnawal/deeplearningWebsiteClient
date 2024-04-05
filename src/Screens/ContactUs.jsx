@@ -14,7 +14,7 @@ const ContactUs = () => {
     console.log('Email:', email);
     console.log('Message:', message);
     try {
-      await axios.post("http://localhost:8080/api/send", {
+      await axios.post("https://deeplearningwebsiteserver.onrender.com/api/send", {
         from: "machinelearning224@gmail.com",  
         email,
         message

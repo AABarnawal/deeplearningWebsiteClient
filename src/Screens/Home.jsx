@@ -5,7 +5,7 @@ import vector from './Styles/Designer.gif'
 
 function Home() {
     const loginwithgoogle=()=>{
-      window.open("http://localhost:8080/auth/google/callback", "_self")
+      window.open("https://deeplearningwebsiteserver.onrender.com/auth/google/callback", "_self")
     }
   return (
     <div style={{display:'flex', paddingTop:'40px', backgroundColor:"#222222" }}>
