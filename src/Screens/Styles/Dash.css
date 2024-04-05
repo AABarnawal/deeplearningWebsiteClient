@@ -1,0 +1,27 @@
+.dashmain{
+    display: flex;
+    align-items: center;
+    justify-content : center;
+    height: 100vh;
+    background-color: #222222;
+}
+.btn-upload{
+    padding: 10px;
+    
+}
+.dashh{
+    padding: 10px;
+    width:600px;
+    height: 300px;
+    background-color: rgb(14, 14, 14);
+    border-radius: 5px;
+}
+.true{
+    color: rgb(26, 168, 26);
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+}
+.false{
+    color: red;
+}

@@ -1,0 +1,26 @@
+.nav-body{
+    display:flex;
+    justify-content:space-between; 
+    background-color:#0f0f0f;
+    height:60px; 
+    position: fixed;
+    width: 100%;
+}
+
+.list{
+    list-style: none;
+} 
+.list .link{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.name-profile{
+    color: white;
+    font-size: 20px;
+}
+.img-profile{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}

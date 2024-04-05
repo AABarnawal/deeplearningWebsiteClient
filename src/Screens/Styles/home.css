@@ -1,0 +1,29 @@
+.container{
+    /* background-color: ; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
+    margin: 0 100px;
+    height:640px;
+    
+}
+.header{
+    font-size: 75px;
+    width: 100%;
+    color: white;
+}
+.para{
+    font-size: 15px;
+    width: 90%;
+    color: white;
+}
+.container .btn{
+    margin: auto;
+    padding: 10px;
+}
+.img-src{
+    padding: 10px;
+    height: 500px;
+    width:500px;
+}

@@ -1,0 +1,55 @@
+.horizontal-card {
+  align-items: center;
+  padding: 10px;
+  /* border: 1px solid #ccc; */
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  width : 16%;
+  margin: auto; 
+  margin-top: 20px;
+  background-image: url("https://images.pexels.com/photos/8168570/pexels-photo-8168570.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-repeat: no-repeat;
+  background-size: 9.6cm 2.5cm;
+  background-color: #222222;
+
+}
+.horizontal-card:hover{
+  box-shadow: 0 2px 7px white;
+}
+
+ .bgg img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+}
+.content {
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.content h2, h3, p {
+  margin: 10px;
+  color:white;
+}
+.content h2{
+  height: 50px;
+}
+.content p{
+  height: 200px;
+}
+.content h3{
+  color : #02d79d ;
+}
+.social-links {
+  display: flex;
+}
+.social-links a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-links img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}

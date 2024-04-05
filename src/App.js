@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import Home from './Screens/Home';
+import About from './Screens/About'
+import Navbar from './Components/Navbar';
+import ContactUs from './Screens/ContactUs';
+import Footer from './Components/Footer.jsx';
+import {Routes, Route } from "react-router-dom";
+import Dash from './Screens/Dash.jsx';
+// import FaceMask from './Components/FaceMask.js';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="contact" element={<ContactUs />} />
+          <Route path="about" element={<About />} />
+          <Route path="dash" element={<Dash />} />
+          {/* <Route path="*" element={<NoPage />} /> */}
+      </Routes>
+      {/* <FaceMask /> */}
+      <Footer />
     </div>
   );
 }
