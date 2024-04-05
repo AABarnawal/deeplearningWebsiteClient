@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/deeplearningWebsiteClien/static/css/main.a769d906.css",
+    "main.js": "/deeplearningWebsiteClien/static/js/main.82fe1b29.js",
+    "static/media/Designer.gif": "/deeplearningWebsiteClien/static/media/Designer.9f265681b66d209ea2d1.gif",
+    "index.html": "/deeplearningWebsiteClien/index.html",
+    "main.a769d906.css.map": "/deeplearningWebsiteClien/static/css/main.a769d906.css.map",
+    "main.82fe1b29.js.map": "/deeplearningWebsiteClien/static/js/main.82fe1b29.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a769d906.css",
+    "static/js/main.82fe1b29.js"
+  ]
+}
