@@ -12,10 +12,10 @@ function App() {
     <div className="App">
       <Navbar />
       <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="contact" element={<ContactUs />} />
-          <Route path="about" element={<About />} />
-          <Route path="dash" element={<Dash />} />
+          <Route path="deeplearningWebsiteClient/" element={<Home />} />
+          <Route path="deeplearningWebsiteClient/contact" element={<ContactUs />} />
+          <Route path="deeplearningWebsiteClient/about" element={<About />} />
+          <Route path="deeplearningWebsiteClient/dash" element={<Dash />} />
           {/* <Route path="*" element={<NoPage />} /> */}
       </Routes>
       {/* <FaceMask /> */}
